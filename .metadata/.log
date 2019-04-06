@@ -1,0 +1,220 @@
+!SESSION 2019-04-06 16:53:18.328 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Framework arguments:  C:\Users\wwwho\Desktop\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\STM_workspace\NUCLEO-F446RE_ADC_DMA_anather_pin C:\Users\wwwho\Desktop\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-06 16:53:23.786
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-06 16:53:24.158
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-04-06 16:53:27.291
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-06 16:53:27.291
+!MESSAGE Workspace: C:\STM_workspace\NUCLEO-F446RE_ADC_DMA_anather_pin
+
+!ENTRY org.eclipse.jface 2 0 2019-04-06 16:53:34.705
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-06 16:53:34.705
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b33c29,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15ef20,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-06 16:53:48.166
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-06 16:53:48.416
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wwwho'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-06 16:53:49.260
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-06 16:54:24.791
+!MESSAGE Unloading product manager
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-04-06 16:54:24.885
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:855)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:100)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:94)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1372)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:214)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:113)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:138)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:79)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:421)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:406)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:168)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:65)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:200)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:190)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:71)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:34)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:161)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:101)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:92)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:85)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:47)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:36)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:79)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:56)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:38)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:235)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:113)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:150)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:75)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1057)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1019)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:898)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-04-06 16:54:24.885
+!MESSAGE "C/C++ Indexer" 中に内部エラーが発生しました。
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:855)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:100)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:94)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1372)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:214)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:113)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:138)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:79)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:421)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:406)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:168)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:65)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:200)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:190)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:71)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:34)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:161)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:101)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:92)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:85)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:47)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:36)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:79)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:56)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:38)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:235)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:113)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:150)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:75)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1057)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1019)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:898)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:90)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-06 16:54:25.119
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2019-04-06 16:54:28.313 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Framework arguments:  C:\STM_workspace\NUCLEO-F446RE_ADC_DMA_anather_pin\adc_dma\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\STM_workspace\NUCLEO-F446RE_ADC_DMA_anather_pin\adc_dma\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-06 16:54:34.034
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-04-06 16:54:34.034
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-06 16:54:34.253
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY TrueSTUDIO 1 0 2019-04-06 16:54:35.188
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-04-06 16:54:35.188
+!MESSAGE Workspace: C:\STM_workspace\NUCLEO-F446RE_ADC_DMA_anather_pin
+
+!ENTRY org.eclipse.jface 2 0 2019-04-06 16:54:36.376
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-06 16:54:36.376
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b5a21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e5344c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-04-06 16:54:41.158
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-04-06 16:54:41.205
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-06 16:54:41.439
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wwwho'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2019-04-06 17:04:22.581
+!MESSAGE 参照部分はまだ存在しません: org.eclipse.ui.views.TaskList。
